@@ -13,8 +13,8 @@ git clone git@github.com:icure/icure-medical-device-node-js-boilerplate-app-temp
 Once your app is created, rename the file `.env.default` to `.env` and complete the following values: 
 - **PARENT_ORGANISATION_USERNAME**: The username of your parent organisation to manage medical data through your organisation,
 - **PARENT_ORGANISATION_TOKEN**: The application token (pwd) of your parent organisation to manage medical data through your organisation,
-- **PARENT_HEALTHCARE_PARTY_PUBLIC_KEY** (Optional): The public key of your parent organisation. Complete it only if you already generated cryptographic keys for your parent organisation,
-- **PARENT_HEALTHCARE_PARTY_PRIVATE_KEY** (Optional): The private key of your parent organisation. Complete it only if you already generated cryptographic keys for your parent organisation,
+- **PARENT_ORGANISATION_PUBLIC_KEY** (Optional): The public key of your parent organisation. Complete it only if you already generated cryptographic keys for your parent organisation,
+- **PARENT_ORGANISATION_PRIVATE_KEY** (Optional): The private key of your parent organisation. Complete it only if you already generated cryptographic keys for your parent organisation,
 - **HOST** (Optional): The host to use to start your Node.JS server (127.0.0.1 by default),
 - **PORT** (Optional): The port to use to start your Node.JS server (3000 by default),
 - **LOCAL_STORAGE_LOCATION** (Optional): The path to your local storage file (./scratch/localStorage by default)
@@ -44,7 +44,7 @@ Make sure the following tools are installed on your machine:
 - [ESLint](https://eslint.org/) as a code analyzer
 - [Prettier](https://prettier.io/) as a code formatter
 
-We chosed this set of technologies, because we consider them as the most efficient ones to work with. 
+We chose this set of technologies, because we consider them as the most efficient ones to work with. 
 Nonetheless, you can of course work with the technologies of your choices and still integrate the iCure MedTech Typescript SDK in your Node.JS server.
 
 
