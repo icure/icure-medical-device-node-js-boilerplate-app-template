@@ -10,6 +10,7 @@ Start working on your e-health Node.JS Back-End app with iCure in a few minutes,
 git clone git@github.com:icure/icure-medical-device-node-js-boilerplate-app-template.git my-icure-nodejs-app
 ```
 
+
 Once your app is created, rename the file `.env.default` to `.env` and complete the following values: 
 - **PARENT_ORGANISATION_USERNAME**: The username of your parent organisation to manage medical data through your organisation,
 - **PARENT_ORGANISATION_TOKEN**: The application token (pwd) of your parent organisation to manage medical data through your organisation,
